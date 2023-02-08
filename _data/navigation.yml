@@ -2,9 +2,9 @@
 
 - text: Home # Note that users can also reach the homepage by clicking the site's title on the left in the navbar
   href: /
-- text: Research
-  href: /research/
-- text: People
+  #- text: Research
+  #href: /research/
+- text: Team 
   href: /people/
   menu:
   - text: ALL
@@ -19,8 +19,10 @@
     href: /people/bs/
   - text: Alumni
     href: /people/alumni/
-- text: Courses
+- text: Pricing 
   href: /courses/
+    #- text: Courses
+    #href: /courses/
 - text: News
   href: /blog/
 
