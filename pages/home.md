@@ -1,19 +1,18 @@
 ---
 layout: home
 title: Your AGI
-description: Your AGI Company Home
-background: /assets/img/GIST_background.jpg
-permalink: /
+description: Own Your Personal AGI
+background: /assets/img/default_background.png
 ---
 
 
 
-## News
+### News
 ---
 <!-- Content here would shop up above your list of posts -->
 - 23.01.30: Homepage is published.<br/>
 
-## Vision and Research Area
+### Vision and Research Area
 ---
 Easy AGI Use!
 - Just select a pretrained AGI for your purpose
