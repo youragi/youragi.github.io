@@ -1,0 +1,98 @@
+---
+layout: base
+description: Template for publications
+---
+
+{{ content }}
+
+{% for publication in site.data.publication %}
+  <h5 id="{{ publication.title | strip | url_encode }}">
+    {{ publication.title }}
+    {% if publication.where %}
+    <!-- chnage format -->
+    <!-- <small class="text-muted">| {{ publication.where }}</small> -->
+    <p><small class="text-muted">{{ publication.where }}</small></p>
+    {% endif %}
+  </h5>
+
+  <div class="media publication-paper">
+    <img class="mr-3" src="{{ publication.image | relative_url }}">
+    <div class="media-body">
+      <ul class="list-inline">
+        {{ publication.description | markdownify }}
+
+        {% if publication.abstract %}
+        <li class="list-item">
+          <details>
+            <summary><b>Abstract<b/></summary>
+            <p><span class="notbold">{{ publication.abstract }}<span/></p>
+          </details>
+        </li>
+        {% endif %}
+
+        {% if publication.question %}
+        <li class="list-item">
+          <b>Question: <span class="notbold">{{ publication.question }}<span/><b/>
+        </li>
+        {% endif %}
+
+        {% if publication.idea %}
+        <li class="list-item">
+          <b>Idea: <span class="notbold">{{ publication.idea }}<span/><b/>
+        </li>
+        {% endif %}
+
+        {% if publication.dataset %}
+        <li class="list-item">
+          <b>Dataset: <span class="notbold">{{ publication.dataset }}</span></b>
+        </li>
+        {% endif %}
+
+        {% if publication.method %}
+        <li class="list-item">
+          <b>Method: <span class="notbold">{{ publication.method }}</span></b>
+        </li>
+        {% endif %}
+
+        {% if publication.keywords %}
+        <li class="list-item">
+          <b>Keywords: <span class="notbold">{{ publication.keywords }}</span></b>
+        </li>
+        {% endif %}
+      </ul>
+
+      <ul class="list-inline">
+        <b>Links: </b>
+
+        {% if publication.paper %}
+        <li class="list-inline-item">
+          <a class="notbold" href="{{ publication.paper }}"><i class="fa fa-book"></i></a>
+        </li>
+        {% endif %}
+
+        {% if publication.code %}
+        <li class="list-inline-item">
+          <a class="notbold" href="{{ publication.code }}"><i class="fa fa-github"></i></a>
+        </li>
+        {% endif %}
+
+        {% if publication.youtube %}
+        <li class="list-inline-item">
+          <a class="notbold" href="{{ publication.youtube }}"><i class="fa fa-youtube"></i></a>
+        </li>
+        {% endif %}
+      </ul>
+    </div>
+  </div>
+{% endfor %}
+
+<hr>
+
+<div>
+  <h4>
+    Until 2019
+  </h4>
+  <li>
+    <a href="https://scholar.google.co.kr/citations?user=RZggOtkAAAAJ&hl=ko&oi=ao"> link to google scholar </a>
+  </li>
+</div>
