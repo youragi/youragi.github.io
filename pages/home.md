@@ -3,6 +3,7 @@ layout: home
 title: Your AGI
 description: Own Your Personal AGI
 background: /assets/img/default_background.png
+permalink: /
 ---
 
 
