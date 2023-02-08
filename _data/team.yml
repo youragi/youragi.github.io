@@ -1,101 +1,16 @@
 # Project team members listed below will appear on the /team page
 
 - name: Kangil Kim
-  role: Professor # Will appear next to name
+  role: Main Director # Will appear next to name
   image: assets/img/team/prof.jpg # Can be external link
   description: > # Can be Markdown
     **email**: kangil.kim.01*[at]*gmail*[dot]*com / kikim01*[at]*gist*[dot]*ac*[dot]*kr
   email: kangil.kim.01@gmail.com
   scholar: https://scholar.google.co.kr/citations?user=RZggOtkAAAAJ&hl=ko&oi=ao
 
-- name: Hoyong Kim
-  role: Ph.D. Candidate
-  image: assets/img/team/hoyong.jpg
-  description: >
-    **email**: khyong0101*[at]*gmail*[dot]*com
-  email: khyong0101@gmail.com
 
-- name: Jinwook Park
-  role: Ph.D. Candidate
-  image: assets/img/team/jinwook.jpg
-  description: >
-    **email**: jinwookpark2296*[at]*gmail*[dot]*com
-  email: jinwookpark2296@gmail.com
 
-- name: Heejun Jung
-  role: Ph.D. Candidate
-  image: assets/img/team/heejun.jpg
-  description: >
-    **email**: jungheejun93*[at]*gm*[dot]*gist*[dot]*ac*[dot]*kr / heejun.jung93*[at]*gmail*[dot]*com
-  email: jungheejun93@gm.gist.ac.kr
-  link: https://maroo-sky.github.io/
-  github: maroo-sky
-  scholar: https://scholar.google.com/citations?hl=ko&user=wE6eHi0AAAAJ
-  linkedin: https://www.linkedin.com/in/hee-jun-jung-profile/
-  
-
-- name: Doyeon Kim
-  role: M.S. Candidate
-  image: assets/img/team/doyeon.jpg
-  description: >
-    **email**: Doyeon.18.Kim*[at]*gmail*[dot]*com
-  email: Doyeon.18.Kim@gmail.com
-
-- name: Juhyeon Nam
-  role: M.S. Candidate
-  image: assets/img/team/juhyeon.jpg
-  description: >
-    **email**: harryjhnam*[at]*gmail*[dot]*com / harryjhnam*[at]*gm*[dot]*gist*[dot]*ac*[dot]*kr
-  email: harryjhnam@gm.gist.ac.kr
-  link: https://harryjhnam.github.io
-  github: harryjhnam
-  twitter: JuhyeonNam
-
-- name: Ilmin Kang
-  role: M.S. Candidate
-  image: assets/img/team/ilmin.jpg
-  description: >
-    **email**: kangilmin0325*[at]*gmail*[dot]*com
-  email: kangilmin0325@gmail.com
-
-- name: Semi Lee
-  role: M.S. Candidate
-  image: assets/img/team/semi.jpg
-  description: >
-    **email**: leesemi0719*[at]*gmail*[dot]*com
-  email: leesemi0719@gmail.com
-
-- name: Junsik Kim
-  role: M.S. Candidate
-  image: assets/img/team/junsik.jpg
-  description: >
-    **email**: junsikkim*[at]*gm*[dot]*gist*[dot]*ac*[dot]*kr
-  email: junsikkim@gm.gist.ac.kr
-
-- name: Youngmok Kim
-  role: M.S. Candidate
-  image: assets/img/team/youngmok.jpg
-  description: >
-    **email**: kym990708*[at]*gm*[dot]*gist*[dot]*ac*[dot]*kr
-  email: kym990708@gm.gist.ac.kr
-
-- name: Hyunyoung Bae
-  role: M.S. Candidate
-  image: assets/img/team/hyunyoung.jpg
-  description: >
-    **email**: bonheur60*[at]*gm*[dot]*gist*[dot]*ac*[dot]*kr
-  email: bonheur60@gm.gist.ac.kr
-
-- name: Mingi Hong
-  role: M.S. Candidate
-  image: assets/img/team/mingi.jpg
-  description: >
-    **email**: alsrl5940*[at]*gm*[dot]*gist*[dot]*ac*[dot]*kr
-  email: alsrl5940@gm.gist.ac.kr
-
-- name: Jaehyoung Jeong
-  role: M.S. Candidate
-  image: assets/img/team/jaehyoung.jpg
-  description: >
-    **email**: jaehyoung98*[at]*gm*[dot]*gist*[dot]*ac*[dot]*kr
-  email: jaehyoung98@gm.gist.ac.kr
+- name: Collaborators
+  role: AI Core/Application Research 
+  image: assets/img/IRR_logo.png
+  #homepage: irrlab.github.io

@@ -25,6 +25,3 @@ Obtain fair compensation by sharing your works
 - AGI Core 
 - Dataset
 
-
-**Collaborators**
-![fundings_logo](assets/img/IRR_logo.png)
