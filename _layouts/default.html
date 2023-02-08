@@ -1,20 +1,12 @@
-<!DOCTYPE html>
-<html>
+---
+layout: base
+description: Default template for pages and posts, with contained width
+---
 
-  {% include head.html %}
+<div class="row">
+  <div class="col-md-10 col-lg-8 mx-auto">
 
-  <body>
+    {{ content }}
 
-    {% include header.html %}
-
-    <div class="page-content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
-    </div>
-
-    {% include footer.html %}
-
-  </body>
-
-</html>
+  </div>
+</div>

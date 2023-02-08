@@ -1,21 +1,62 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
+# SITE SETTINGS
+title: Intelligence Representation & Reasoning Lab  # Title in top navigation bar (navbar) and <head>
+description: GIST Intelligence Representation & Reasoning Lab website # Site description in <head>
+author: Peter Desmet                    # Used for copyright statement in footer
+url: "https://peterdesmet.github.io"  # No slash at the end
+  # baseurl: "/petridish"                 # Only required if your site is on a subdomain e.g. https://username.github.io/sitename
+  # which has url: "https://username.github.io" (no slash) and baseurl: "/sitename" (leading slash)
+# A baseurl affects internal links, see http://peterdesmet.github.io/petridish/about/#links
 
-# Site settings
-title: Your awesome title
-email: your-email@domain.com
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+# SOCIAL PROFILES
+email: kangil.kim.01@gmail.com           # Social icon in footer
+#twitter_username: peterdesmet           # Social icon in footer
+github_username: irrlab            # Social icon in footer
 
-# Build settings
+# THEME SETTINGS (ALL OPTIONAL)
+posts_on_home: 4                        # Show x number of latest posts on homepage, can be 0
+tweets_on_home: false                   # Show Twitter feed of twitter_username on homepage
+archive_permalink: /blog/               # Permalink of page using archive.html layout, required when using post categories
+logo: /assets/img/IRR_logo.png  # Logo in navbar, will be displayed with 30px height
+colors:
+  links: "#DC2415"                      # Color for links: use a readable color that contrasts well with dark text
+  banner: "#DC2415"                     # Background color for page banners: use color that contrasts well with white
+  footer: "#333"                     # Background color for footer: use color that contrasts well with white
+rounded_corners: true                   # Enable (default) rounded corners on boxes and buttons
+
+# BUILD SETTINGS
 markdown: kramdown
+plugins:                                # If you build your site on gh-pages, only use these plugins: https://pages.github.com/versions/
+  - jekyll-feed
+  - jekyll-sitemap
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - LICENSE
+  - package-lock.json
+  - package.json
+  - petridish.gemspec
+
+# FRONTMATTER DEFAULTS
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      permalink: "/blog/:year/:slug/"   # Use /blog/yyyy/{filename}/ as permalink for all posts
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"                 # Only required for Petridish website, implied for sites using a theme
+
+
+# Analytics
+analytics:
+  provider               : "google-gtag" 
+                          # false (default), "google", "google-universal", "google-gtag", "custom"
+  google:
+    tracking_id          : "G-C0MHLDNGV3"
+    anonymize_ip         : # true, false (default)
