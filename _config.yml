@@ -1,6 +1,6 @@
 # SITE SETTINGS
-title: Intelligence Representation & Reasoning Lab  # Title in top navigation bar (navbar) and <head>
-description: GIST Intelligence Representation & Reasoning Lab website # Site description in <head>
+title: Your AGI  # Title in top navigation bar (navbar) and <head>
+description: Build Up Your AGI # Site description in <head>
 author: Peter Desmet                    # Used for copyright statement in footer
 url: "https://peterdesmet.github.io"  # No slash at the end
   # baseurl: "/petridish"                 # Only required if your site is on a subdomain e.g. https://username.github.io/sitename
@@ -8,18 +8,18 @@ url: "https://peterdesmet.github.io"  # No slash at the end
 # A baseurl affects internal links, see http://peterdesmet.github.io/petridish/about/#links
 
 # SOCIAL PROFILES
-email: kangil.kim.01@gmail.com           # Social icon in footer
+email: youragi.biz@gmail.com           # Social icon in footer
 #twitter_username: peterdesmet           # Social icon in footer
-github_username: irrlab            # Social icon in footer
+github_username: youragi            # Social icon in footer
 
 # THEME SETTINGS (ALL OPTIONAL)
 posts_on_home: 4                        # Show x number of latest posts on homepage, can be 0
 tweets_on_home: false                   # Show Twitter feed of twitter_username on homepage
 archive_permalink: /blog/               # Permalink of page using archive.html layout, required when using post categories
-logo: /assets/img/IRR_logo.png  # Logo in navbar, will be displayed with 30px height
+#logo: /assets/img/IRR_logo.png  # Logo in navbar, will be displayed with 30px height
 colors:
-  links: "#DC2415"                      # Color for links: use a readable color that contrasts well with dark text
-  banner: "#DC2415"                     # Background color for page banners: use color that contrasts well with white
+  links: "#158CDC"                      # Color for links: use a readable color that contrasts well with dark text
+  banner: "#158CDC"                     # Background color for page banners: use color that contrasts well with white
   footer: "#333"                     # Background color for footer: use color that contrasts well with white
 rounded_corners: true                   # Enable (default) rounded corners on boxes and buttons
 
