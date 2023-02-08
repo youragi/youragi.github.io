@@ -1,7 +1,7 @@
 ---
 layout: home
-title: Intelligence Representation & Reasoning Lab
-description: Gwangju Institute of Science and Technology (GIST)
+title: Your AGI
+description: Your AGI Company Home
 background: /assets/img/GIST_background.jpg
 permalink: /
 ---
