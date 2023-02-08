@@ -1,7 +1,7 @@
 ---
 layout: team
-title: People
-description: Who we are
-background: /assets/img/Library_background.jpg
+title: Team 
+description: All members 
+background: /assets/img/default_background.jpg
 permalink: /people/
 ---

@@ -1,6 +1,6 @@
 ---
 title: Pricing
-description: Cheap! 
+description: Free, Paid, Rewarded
 background: /assets/img/default_background.png
 permalink: /pricing/
 ---
@@ -8,10 +8,10 @@ permalink: /pricing/
 ## Free!
 - use a base model for Free
 
-## Non-Free!
+## Paid!
 - increases the number of inference requests to your model
 - build up a new combination of a core and a dataset 
 
-## Get Reward!
+## Rewarded!
 - Register your AGI core
 - Register your dataset
