@@ -6,19 +6,19 @@
   #href: /research/
 - text: Team 
   href: /people/
-  menu:
-  - text: ALL
-    href: /people/
-  - text: Professor
-    href: /people/professor/
-  - text: Ph.D.
-    href: /people/phd/
-  - text: M.S.
-    href: /people/ms/
-  - text: B.S.
-    href: /people/bs/
-  - text: Alumni
-    href: /people/alumni/
+  #  menu:
+#  - text: ALL
+#    href: /people/
+#  - text: Professor
+#    href: /people/professor/
+#  - text: Ph.D.
+#    href: /people/phd/
+#  - text: M.S.
+#    href: /people/ms/
+#  - text: B.S.
+#    href: /people/bs/
+#  - text: Alumni
+#    href: /people/alumni/
 - text: Pricing 
   href: /pricing/
     #- text: Courses
