@@ -1,7 +1,7 @@
 ---
 layout: home
 title: Your AGI
-description: Own Your Personal Artificial General Intelligence
+description:  Own Your Personal Artificial General Intelligence
 background: /assets/img/default_background.png
 permalink: /
 ---
