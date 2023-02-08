@@ -5,15 +5,7 @@ description: Own Your Personal AGI
 background: /assets/img/default_background.png
 permalink: /
 ---
-
-
-
-### News
----
-<!-- Content here would shop up above your list of posts -->
-- 23.01.30: Homepage is published.<br/>
-
-### Vision and Research Area
+### Vision ### 
 ---
 Easy AGI Use!
 - Just select a pretrained AGI for your purpose

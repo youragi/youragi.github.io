@@ -3,14 +3,12 @@
 - name: Kangil Kim
   role: Main Director # Will appear next to name
   image: assets/img/team/prof.jpg # Can be external link
-  description: > # Can be Markdown
-    **email**: kangil.kim.01*[at]*gmail*[dot]*com / kikim01*[at]*gist*[dot]*ac*[dot]*kr
+  #description: > # Can be Markdown
+  #  **email**: kangil.kim.01*[at]*gmail*[dot]*com / kikim01*[at]*gist*[dot]*ac*[dot]*kr
   email: kangil.kim.01@gmail.com
-  scholar: https://scholar.google.co.kr/citations?user=RZggOtkAAAAJ&hl=ko&oi=ao
+  #scholar: https://scholar.google.co.kr/citations?user=RZggOtkAAAAJ&hl=ko&oi=ao
 
-
-
-- name: Collaborators
+- name: Partner
   role: AI Core/Application Research 
   image: assets/img/IRR_logo.png
   #homepage: irrlab.github.io
