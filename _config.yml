@@ -21,4 +21,4 @@ github_username:  jekyll
 markdown: kramdown
 
 # Theme
-remote_theme: peterdesmet/petridish@1.1
+#remote_theme: peterdesmet/petridish@1.1
