@@ -7,11 +7,11 @@ permalink: /
 ---
 ### Vision ### 
 ---
-Easy AGI Use!
-- Just select a pretrained AGI for your purpose
+#### Easy AGI Use!
+##### - Just select a pretrained AGI for your purpose
 
-Build Up your special AGI!
-- Compose a model and dataset 
+##### Build Up your special AGI!
+###### - Compose a model and dataset 
 
 Obtain fair compensation by sharing your works
 - AGI Core 
