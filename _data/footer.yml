@@ -5,12 +5,12 @@
 columns:
   - description:
     links:
-    - text: AI Graduate School, GIST
-      href: https://ai.gist.ac.kr/ai/
+    - text: YourAGI Inc.
+      href: https://youragi.github.io 
       new_window: true
 
   - description: > # E.g. funding acknowledgement. Can be Markdown
-      This site is modified by Juhyeon Nam
+      This site is modified by Kangil Kim
     links:
 
 # Small print license statement to add at the bottom of the footer. Can be Markdown
